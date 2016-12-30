@@ -7,14 +7,10 @@ namespace HelloWorld
         static void Main(string[] args)
         {
 
-            Console.WriteLine(createMessage());
+            Console.WriteLine(Messages.createMessage());
         }
 
-        public static string createMessage()
-        {
-            return "Hello World";
-
-        }
+        
     }
 }
 
